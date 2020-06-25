@@ -75,7 +75,7 @@
 
         ZoomMtg.init({
             leaveUrl: 'http://www.zoom.us',
-            isSupportAV: false, // enable 2AV feature 
+            isSupportAV: true, // enable 2AV feature 
             success: function () {
                 console.log('isSupportAV', false)
                 ZoomMtg.join(
