@@ -72,6 +72,7 @@
             }
         });
 
+        
         ZoomMtg.init({
             leaveUrl: 'http://www.zoom.us',
             isSupportAV: true, // enable 2AV feature 
